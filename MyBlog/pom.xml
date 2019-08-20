@@ -1,0 +1,35 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>cn.tedu</groupId>
+	<artifactId>MyBlog</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
+	<dependencies>
+		<!-- java连接 mysql数据库 驱动 组件 -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>5.1.6</version>
+		</dependency>
+		<!-- apache 上的一个 java 连接池项目,也是 tomcat使用的连接池 组件 -->
+		<dependency>
+			<groupId>commons-dbcp</groupId>
+			<artifactId>commons-dbcp</artifactId>
+			<version>1.4</version>
+		</dependency>
+		<!-- 自动为你生成配置文件、源代码等 组件 -->
+		<dependency>
+			<groupId>xdoclet</groupId>
+			<artifactId>xdoclet</artifactId>
+			<version>1.2.3</version>
+		</dependency>
+		<!-- 用于Web和独立环境的现代服务器端的Java模板引擎 组件 -->
+		<dependency>
+			<groupId>org.thymeleaf</groupId>
+			<artifactId>thymeleaf</artifactId>
+			<version>3.0.9.RELEASE</version>
+		</dependency>
+	</dependencies>
+</project>
