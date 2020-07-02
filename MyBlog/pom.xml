@@ -11,7 +11,7 @@
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
-			<version>5.1.6</version>
+			<version>8.0.16</version>
 		</dependency>
 		<!-- apache 上的一个 java 连接池项目,也是 tomcat使用的连接池 组件 -->
 		<dependency>
